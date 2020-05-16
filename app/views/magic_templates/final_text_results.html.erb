@@ -1,0 +1,9 @@
+<h1>Text results</h1>
+<ul>
+<% @first_result.text_annotations.each do |text_id| %>
+<li>
+<%= text_id.description %>
+
+</li>
+<% end %>
+</ul>

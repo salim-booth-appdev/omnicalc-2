@@ -1,0 +1,9 @@
+<h1>Label results</h1>
+<ul>
+<% @first_result.label_annotations.each do |label| %>
+<li>
+<%= label.description %> (<%=label.score %>)
+
+</li>
+<% end %>
+</ul>
